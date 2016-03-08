@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font;
+  font-weight: $weight;
+}
+
+header {
+  box-shadow: 0 0 0.25rem $shadow-start,0 0.25rem 0.5rem $shadow-end;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  color: $white;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h2 {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:focus, .btn:focus {
+  outline: 0;
+}

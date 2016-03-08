@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Coffee For Bernie</title>
+    <meta name="Description" content="It's a long campaign. Help Bernie with a cup of coffee!">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="dns-prefetch" href="//go.berniesanders.com">
+    <link rel="dns-prefetch" href="//berniesanders.com">
+    <link rel="canonical" href="https://coffeeforbernie.github.io/">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <header>
+        <div id="herojumbo" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>Coffee For Bernie</h1>
+                <p class="lead">It's a long campaign. Help Bernie with a cup of coffee!</p>
+                <div id="bernielogo"><img src="img/bernie.png" width="230" height="230"></div>
+                <div id="donatejumbo"><a href="//go.berniesanders.com" target="_blank" class="btn btn-bern" role="button">Donate</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="delegatecount" class="white">
+            <div class="container-fluid">
+                <h2 id="datetime" class="display-4 m-b-3"></h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="revolvingchart">
+                            <canvas id="delegates" width="auto" height="auto"></canvas>
+                            <h4 class="m-t-1">Undecided Delegates: <span id="percent"></span>%</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Upcoming Primaries</th>
+                                <th>Delegates</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="strike">
+                                <th scope="row">3/6</th>
+                                <td>Maine</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3/8</th>
+                                <td>Michigan</td>
+                                <td>130</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3/8</th>
+                                <td>Mississippi</td>
+                                <td>36</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3/12</th>
+                                <td>Mariana Islands</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3/15</th>
+                                <td>5 States</td>
+                                <td>691</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <p class="note">Source: <a href="//www.realclearpolitics.com/epolls/2016/president/democratic_delegate_count.html" target="_blank">Real Clear Politics</a></p>
+            </div>
+        </section>
+        <section id="upcomingvotes" class="red">
+            <div class="container-fluid">
+                <div class="row">
+                        <h2 class="display-4">Pledges For Bernie</h2>
+                    <div class="col-lg-6">
+                        <div id="bar"><canvas id="delegateswon" width="auto" height="auto"></canvas></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="delegatecard" class="card card-inverse">
+                            <div class="card-block">
+                                <h3 class="card-title text-xs-center">Voter-based</h3>
+                                <div class="card-text text-xs-center">Pledged delegates are decided by state caucus or primary voters and exclude superdelegates.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="note">Who are <a href="//en.wikipedia.org/wiki/List_of_Democratic_Party_superdelegates,_2016" target="_blank">superdelegates</a>?</p>
+        </section>
+        <section id="berniestates" class="white">
+            <div class="container-fluid">
+                <h2 class="display-4">States For Bernie</h2>
+                <div id="staterowone" class="row">
+
+                    <div class="col-xs-3">
+                        <p class="state">CO</p>
+                        <img src="img/stateswon/colorado.png" class="img-fluid">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">OK</p>
+                        <img src="img/stateswon/oklahoma.png" class="img-fluid">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">KS</p>
+                        <img src="img/stateswon/kansas.png" class="img-fluid">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">NE</p>
+                        <img src="img/stateswon/nebraska.png" class="img-fluid">
+                    </div>
+                </div>
+                <div id="staterowtwo" class="row">
+                    <div class="col-xs-3">
+                        <p class="state">NH</p>
+                        <img src="img/stateswon/new-hampshire.png" class="img-fluid">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">MN</p>
+                        <img src="img/stateswon/minnesota.png" class="img-fluid">
+                    </div>
+
+                    <div class="col-xs-3">
+                        <p class="state">ME</p>
+                        <img src="img/stateswon/maine.png" class="img-fluid">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">VT</p>
+                        <img src="img/stateswon/vermont.png" class="img-fluid">
+                    </div>
+                </div>
+                <p class="note">37 States still have to vote.</p>
+            </div>
+        </section>
+        <section id="donate" class="blue">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="display-4 m-b-3">Coffee For Bernie</h2>
+                    <div class="col-sm-12">
+                        <a href="//go.berniesanders.com" target="_blank"><img src="img/coffee.png" class="img-fluid"></a>
+                        <div id="calltoaction" class="text-xs-center m-t-3"><a href="//go.berniesanders.com" target="_blank" class="btn btn-bern">Donate</a></div>
+                        <p class="note">Every coffee counts!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="social">
+                        <a href="//www.reddit.com/u/coffeeforbernie" target="_blank"><i class="fa fa-reddit-square"></i></a>
+                        <a href="//twitter.com/coffee4bernie" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                        <a href="//github.com/coffeeforbernie" target="_blank"><i class="fa fa-github-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/Charts.js"></script>
+    <script src="js/delegate.js"></script>
+    <script src="js/datetime.js"></script>
+</body>
+</html>

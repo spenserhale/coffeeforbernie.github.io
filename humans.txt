@@ -1,0 +1,32 @@
+#Thank you, fellow people of Earth.
+#Your generosity helps developers endlessly.
+#Seriously. Thanks again.
+
+
+#Responsive Framework
+Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
+Copyright 2011-2015 Twitter, Inc.
+Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+#Social Icons
+Font Awesome by Dave Gandy - http://fontawesome.io
+
+#Dollar Icons
+Created by Creative Stall from the Noun Project
+
+#Bernie Icon
+Created by Superhero Bangs from the Noun Project
+#Coffee Icon was created by AdrianQ from the Noun Project
+
+#States Bernie Won SVG
+Author: Theshibboleth
+URL: https://commons.wikimedia.org/wiki/File:Blank_US_Map.svg
+License: GNU 1.2
+
+#Charts
+Chart.js
+http://chartjs.org/
+Version: 1.0.1
+Copyright 2015 Nick Downie
+Released under the MIT license
+https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
