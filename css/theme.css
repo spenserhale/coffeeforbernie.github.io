@@ -88,8 +88,9 @@ section a {
 .progress {
   height: 2rem; }
 
-#staterowone, #staterowtwo {
+#staterowone {
   margin: 2rem 0; }
+#staterowtwo{ margin: 2rem 0 0 0 ;}
 
 #berniestates .img-fluid {
   margin: auto; }

@@ -1,0 +1,34 @@
+@media (min-width: 48rem) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .btn-bern {
+    width: auto;
+  }
+  #revolvingchart {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 62em) {
+  #berniecard {
+    margin: 0 auto 3rem auto;
+  }
+  #delegateswon {
+    min-width: 250px;
+    min-height: 250px;
+  }
+}
+
+@media (min-width: 75em) {
+  #herojumbo{
+    text-align: left;
+  }
+  #bernielogo {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,25 @@
+$font: 'Open Sans', sans-serif;
+$weight: 300;
+$bold: 700;
+
+#berniestates .note {
+  margin-top: 0;
+}
+
+.note {
+  font-size: 1.15rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.state {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1rem;
+}

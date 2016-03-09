@@ -1,0 +1,9 @@
+#delegatecard, #donatecard {
+   margin: 3rem auto;
+   background-color: inherit;
+   border-color: $white;
+ }
+
+#donatecard:hover {
+  background-color: $red;
+}

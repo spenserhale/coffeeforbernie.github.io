@@ -1,0 +1,17 @@
+.social {
+  text-align: center;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.fa {
+  color: $white;
+}
+
+.social .fa{
+  cursor: pointer;
+}
+
+.social .fa:hover {
+  color: $blue;
+}
