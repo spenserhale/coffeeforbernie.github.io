@@ -4,7 +4,7 @@ function dateheader() {
     ];
     var fulldate = new Date();
     var month = monthName[fulldate.getMonth()];
-    var day = fulldate.getDate() + 1;
+    var day = fulldate.getDate();
     var year = fulldate.getFullYear();
     document.getElementById("datetime").innerHTML = month + ' ' + day + ',&nbsp;' + year;
 }

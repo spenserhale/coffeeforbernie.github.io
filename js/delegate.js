@@ -143,7 +143,7 @@ function bar() {
                 strokeColor: "rgba(255,255,255,0.8)",
                 highlightFill: "rgba(255,255,255,0.75)",
                 highlightStroke: "rgba(255,255,255,1)",
-                data: [658, 471]
+                data: [745, 540]
             }
         ]
     };
