@@ -23,6 +23,10 @@ Author: Theshibboleth
 URL: https://commons.wikimedia.org/wiki/File:Blank_US_Map.svg
 License: GNU 1.2
 
+#Favicons
+Favicon set generated using: http://realfavicongenerator.net/
+
+
 #Charts
 Chart.js
 http://chartjs.org/
