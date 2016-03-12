@@ -1,5 +1,6 @@
 @import "_bluemodule.scss";
 @import "_redmodule.scss";
+@import "_states.scss";
 
 
 #delegatecount {
@@ -12,14 +13,6 @@
 
 .progress {
   height: 2rem;
-}
-
-#staterowone, #staterowtwo {
-  margin: 2rem 0;
-}
-
-#berniestates .img-fluid {
-  margin: auto;
 }
 
 #coffee {

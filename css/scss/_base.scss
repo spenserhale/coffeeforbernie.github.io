@@ -31,6 +31,10 @@ section a {
   color: inherit;
 }
 
-:focus, .btn:focus {
+:focus, .btn:focus, a:focus {
   outline: 0;
+}
+
+a:focus {
+  outline-offset: 0;
 }
