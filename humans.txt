@@ -2,7 +2,6 @@
 #Your generosity helps developers endlessly.
 #Seriously. Thanks again.
 
-
 #Responsive Framework
 Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
 Copyright 2011-2015 Twitter, Inc.
@@ -25,7 +24,6 @@ License: GNU 1.2
 
 #Favicons
 Favicon set generated using: http://realfavicongenerator.net/
-
 
 #Charts
 Chart.js
