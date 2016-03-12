@@ -55,6 +55,9 @@ section a {
 a:focus {
   outline-offset: 0; }
 
+a:focus, a:hover {
+  color: inherit; }
+
 #herojumbo {
   background-color: #0D47A1;
   text-align: center;
