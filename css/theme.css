@@ -13,6 +13,16 @@
   text-align: center;
   margin-top: 1rem; }
 
+#superdelegates h2 {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto; }
+
+.display-4 {
+  font-size: 3rem; }
+
 html {
   font-size: 16px; }
 
@@ -97,6 +107,17 @@ a:focus {
 
 #berniestates .img-fluid {
   margin: auto; }
+
+#superdelegates {
+  text-align: center; }
+
+#superdelegates ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+#superdelegates ol {
+  margin-bottom: 2rem; }
 
 #delegatecount {
   background-color: #ffffff; }
