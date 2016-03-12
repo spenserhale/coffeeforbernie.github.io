@@ -35,6 +35,13 @@ h1 {
 h2 {
   text-align: center; }
 
+section {
+  padding: 2rem 0;
+  min-height: 25rem; }
+
+section a {
+  color: inherit; }
+
 :focus, .btn:focus {
   outline: 0; }
 
@@ -42,9 +49,9 @@ h2 {
   background-color: #0D47A1;
   text-align: center;
   margin-bottom: 0; }
+
 #herojumbo a {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 #bernielogo {
   margin-top: 2rem;
@@ -64,13 +71,26 @@ h2 {
   border-color: #ffffff;
   color: #ffffff; }
 
-section {
-  padding: 2rem 0;
-  min-height: 25rem; }
+.blue {
+  background-color: #0D47A1;
+  color: #ffffff; }
 
-section a {
-  color: inherit;
-}
+.blue .img-fluid {
+  margin: auto; }
+
+.blue h2 {
+  color: #ffffff; }
+.blue .note {
+  color: #ffffff; }
+.blue a {
+  color: #ffffff; }
+
+.red h2 {
+  color: #ffffff; }
+.red .note {
+  color: #ffffff; }
+.red a {
+  color: #ffffff; }
 
 #delegatecount {
   background-color: #ffffff; }
@@ -78,28 +98,13 @@ section a {
 #upcomingvotes {
   background-color: #C62828; }
 
-.red h2, .blue h2 {
-  color: #ffffff; }
-.red .note, .blue .note {
-  color: #ffffff; }
-.red a, .blue a {
-  color: #ffffff; }
-
 .progress {
   height: 2rem; }
 
-#staterowone {
+#staterowone, #staterowtwo {
   margin: 2rem 0; }
-#staterowtwo{ margin: 2rem 0 0 0 ;}
 
 #berniestates .img-fluid {
-  margin: auto; }
-
-.blue {
-  background-color: #0D47A1;
-  color: #ffffff; }
-
-.blue .img-fluid {
   margin: auto; }
 
 #coffee {
@@ -116,8 +121,8 @@ section a {
 
 #delegates {
   max-width: 100%;
-  width: 250px;
-  height: 250px; }
+  width: 15.63rem;
+  height: 15.63rem; }
 
 #revolvingchart {
   text-align: center;

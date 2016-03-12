@@ -1,0 +1,20 @@
+.blue {
+  background-color: $blue;
+  color: $white;
+}
+
+.blue .img-fluid {
+  margin: auto;
+}
+
+.blue {
+  h2{
+    color: $white;
+  }
+  .note {
+    color: $white;
+  }
+  a {
+    color: $white;
+  }
+}
