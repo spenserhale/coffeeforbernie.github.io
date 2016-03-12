@@ -1,0 +1,16 @@
+.modal-header {
+  border-bottom: 1px solid $red;
+}
+
+.modal-footer {
+  border-top: 1px solid $red;
+}
+
+
+button.close {
+  color: $blue;
+}
+
+button.close:hover {
+  color: $red;
+}

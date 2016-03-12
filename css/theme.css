@@ -44,12 +44,12 @@ h2 {
 
 section {
   padding: 2rem 0;
-  min-height: 25rem; }
+  min-height: 20rem; }
 
 section a {
   color: inherit; }
 
-:focus, .btn:focus, a:focus {
+a:focus, :focus, .btn:focus, a:focus {
   outline: 0; }
 
 a:focus {
@@ -80,6 +80,17 @@ a:focus, a:hover {
   border-color: #ffffff; }
 
 .btn-bern:hover {
+  background-color: #C62828;
+  border-color: #ffffff;
+  color: #ffffff; }
+
+.btn-bern-modal {
+  color: #ffffff;
+  background-color: #0D47A1;
+  background-image: none;
+  border-color: #ffffff; }
+
+.btn-bern-modal:hover {
   background-color: #C62828;
   border-color: #ffffff;
   color: #ffffff; }
@@ -128,12 +139,6 @@ a:focus, a:hover {
 #upcomingvotes {
   background-color: #C62828; }
 
-.progress {
-  height: 2rem; }
-
-#coffee {
-  margin-top: 3rem; }
-
 #delegateswon {
   max-width: 100% !important;
   width: 100%;
@@ -155,21 +160,6 @@ a:focus, a:hover {
 .card-block {
   padding: 3.25rem; }
 
-.chart-titles {
-  margin-bottom: 2rem; }
-
-ul.pie-legend {
-  text-align: left;
-  margin-top: 2rem; }
-
-.pie-legend li {
-  list-style: none;
-  margin-bottom: 1rem; }
-
-.pie-legend span {
-  padding: .25rem 1rem;
-  margin-right: 1rem; }
-
 .table, thead th, .table td, .table th {
   text-align: center; }
 
@@ -178,8 +168,17 @@ ul.pie-legend {
   background-color: inherit;
   border-color: #ffffff; }
 
-#donatecard:hover {
-  background-color: #C62828; }
+.modal-header {
+  border-bottom: 1px solid #C62828; }
+
+.modal-footer {
+  border-top: 1px solid #C62828; }
+
+button.close {
+  color: #0D47A1; }
+
+button.close:hover {
+  color: #C62828; }
 
 #footer {
   background-color: #C62828; }

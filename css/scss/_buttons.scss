@@ -10,3 +10,16 @@
   border-color: $white;
   color: $white;
 }
+
+.btn-bern-modal {
+  color: $white;
+  background-color: $blue;
+  background-image: none;
+  border-color: $white;
+}
+
+.btn-bern-modal:hover {
+  background-color: $red;
+  border-color: $white;
+  color: $white;
+}
