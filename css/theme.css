@@ -59,7 +59,6 @@ a:focus, a:hover {
   color: inherit; }
 
 #herojumbo {
-  background-color: #0D47A1;
   text-align: center;
   margin-bottom: 0;
   position: relative; }
@@ -71,27 +70,32 @@ a:focus, a:hover {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-.btn-bern {
+.btn-bern-blue, .btn-bern-red, .btn-bern-modal {
   color: #ffffff;
-  background-color: transparent;
-  background-image: none;
-  border-color: #ffffff; }
-
-.btn-bern:hover {
-  background-color: #C62828;
   border-color: #ffffff;
+  background: transparent none; }
+
+.btn-bern-blue:hover, .btn-bern-modal:hover {
+  background-color: #C62828; }
+
+.btn-bern-modal, .btn-bern-red:hover {
+  background-color: #0D47A1; }
+
+.red h2 {
+  color: #ffffff; }
+.red .note {
+  color: #ffffff; }
+.red a {
   color: #ffffff; }
 
-.btn-bern-modal {
-  color: #ffffff;
-  background-color: #0D47A1;
-  background-image: none;
-  border-color: #ffffff; }
+.red {
+  background-color: #C62828; }
 
-.btn-bern-modal:hover {
-  background-color: #C62828;
-  border-color: #ffffff;
-  color: #ffffff; }
+.red .img-fluid {
+  margin: auto; }
+
+.white {
+  background-color: #ffffff; }
 
 .blue {
   background-color: #0D47A1;
@@ -105,13 +109,6 @@ a:focus, a:hover {
 .blue .note {
   color: #ffffff; }
 .blue a {
-  color: #ffffff; }
-
-.red h2 {
-  color: #ffffff; }
-.red .note {
-  color: #ffffff; }
-.red a {
   color: #ffffff; }
 
 #staterowone, #staterowtwo {
@@ -130,12 +127,6 @@ a:focus, a:hover {
 
 #superdelegates ol {
   margin-bottom: 2rem; }
-
-#delegatecount {
-  background-color: #ffffff; }
-
-#upcomingvotes {
-  background-color: #C62828; }
 
 #delegateswon {
   max-width: 100% !important;
@@ -178,9 +169,6 @@ button.close {
 button.close:hover {
   color: #C62828; }
 
-#footer {
-  background-color: #C62828; }
-
 .social {
   text-align: center;
   font-size: 2rem;
@@ -193,7 +181,7 @@ button.close:hover {
   cursor: pointer; }
 
 .social .fa:hover {
-  color: #0D47A1; }
+  color: #C62828; }
 
 @media (min-width: 48rem) {
   h1 {

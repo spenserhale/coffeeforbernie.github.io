@@ -9,3 +9,11 @@
     color: $white;
   }
 }
+
+.red {
+  background-color: $red;
+}
+
+.red .img-fluid {
+  margin: auto;
+}

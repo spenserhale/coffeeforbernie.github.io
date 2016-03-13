@@ -1,13 +1,5 @@
-@import "_bluemodule.scss";
-@import "_redmodule.scss";
-@import "_states.scss";
-@import "_superdelegates.scss";
-
-
-#delegatecount {
-  background-color: $white;
-}
-
-#upcomingvotes {
-  background-color: $red;
-}
+@import "red";
+@import "white";
+@import "blue";
+@import "states.scss";
+@import "superdelegates.scss";
