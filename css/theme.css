@@ -157,9 +157,6 @@ a:focus, a:hover {
   text-align: center;
   margin-bottom: 3rem; }
 
-.card-block {
-  padding: 3.25rem; }
-
 .table, thead th, .table td, .table th {
   text-align: center; }
 
@@ -167,6 +164,9 @@ a:focus, a:hover {
   margin: 3rem auto;
   background-color: inherit;
   border-color: #ffffff; }
+
+.card-block {
+  padding: 3.25rem; }
 
 .modal-header {
   border-bottom: 1px solid #C62828; }
@@ -207,9 +207,6 @@ button.close:hover {
   #revolvingchart {
     margin-bottom: 0; } }
 @media (min-width: 62em) {
-  #berniecard {
-    margin: 0 auto 3rem auto; }
-
   #delegateswon {
     min-width: 250px;
     min-height: 250px; } }
