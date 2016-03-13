@@ -1,2 +1,1 @@
-# coffeeforbernie.github.io
-Support Bernie. Get him coffee.
+# Coffee For Bernie

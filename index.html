@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head itemscope itemtype="http://schema.org/Article">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Coffee For Bernie</title>
-    <meta name="Description" content="Keep running! Keep winning! Get Bernie a cup of coffee.">
+    <meta property="og:title" itemprop="name" content="Coffee For Bernie">
+    <meta property="og:image" content="https://coffeeforbernie.github.io/img/coffeeforbernie.png">
+    <link itemprop="image" href="//coffeeforbernie.github.io/img/coffeeforbernie.png">
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="coffeeforbernie">
+    <meta property="og:description" itemprop="description" content="Keep running! Keep winning! Get Bernie a cup of coffee.">
+    <meta name="description" content="Keep running! Keep winning! Get Bernie a cup of coffee.">
     <link rel="dns-prefetch" href="//go.berniesanders.com">
     <link rel="dns-prefetch" href="//twitter.com">
     <link rel="canonical" href="https://coffeeforbernie.github.io/">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
@@ -256,11 +265,10 @@
         </div>
     </footer>
     <script src="js/charts.js"></script>
-    <script src="js/delegates.js"></script>
-    <script src="js/datetime.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
@@ -274,7 +282,6 @@
 
         ga('create', 'UA-75038582-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 </body>
 </html>

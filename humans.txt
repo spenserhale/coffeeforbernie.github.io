@@ -24,6 +24,10 @@ License: GNU 1.2
 
 #Favicons
 Favicon set generated using: http://realfavicongenerator.net/
+Created by potrace 1.11, written by Peter Selinger 2001-2013
+
+#Font
+Google Fonts
 
 #Charts
 Chart.js
@@ -32,3 +36,10 @@ Version: 1.0.1
 Copyright 2015 Nick Downie
 Released under the MIT license
 https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
+
+jQuery
+
+/*! jQuery v2.1.4 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
+
+
+tether for tooltips
