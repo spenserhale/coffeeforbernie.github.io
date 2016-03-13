@@ -9,5 +9,50 @@
         <image:image>
             <image:loc>https://coffeeforbernie.github.io/img/coffee.svg</image:loc>
         </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/berniecard.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/states/florida.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/illinois.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/missouri.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/northcarolina.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/ohio.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/colorado.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/kansas.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/maine.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/michigan.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/minnestoa.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/nebraska.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/new-hampshire.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/oklahoma.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://coffeeforbernie.github.io/img/vermont.png</image:loc>
+        </image:image>
     </url>
 </urlset>
