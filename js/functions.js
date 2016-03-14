@@ -120,7 +120,8 @@ function votes() {
         }];
 
     var options = {
-        tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>"
+        tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
+        animation: false
     };
 
     var ctx = document.getElementById("delegates").getContext("2d");
@@ -146,7 +147,8 @@ function bar() {
         scaleShowHorizontalLines: false,
         scaleFontColor : "#FFFFFF",
         scaleFontFamily: "'Open Sans', sans-serif",
-        scaleFontSize: 16
+        scaleFontSize: 16,
+        animation: false
     };
     var ctx = document.getElementById("delegateswon").getContext("2d");
     var myBarChart = new Chart(ctx).Bar(data, options);
