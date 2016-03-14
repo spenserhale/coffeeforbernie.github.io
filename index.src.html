@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Coffee For Bernie</title>
+    <meta name="description" content="Keep running! Keep winning! Get Bernie a cup of coffee.">
+    <link rel="canonical" href="https://coffeeforbernie.github.io/">
+
+    <!-- DNS: Primary -->
+    <link rel="dns=prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+
+    <!-- Stylesheets -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/theme.css">
+
+    <!-- DNS: Secondary -->
+    <link rel="dns-prefetch" href="//go.berniesanders.com">
+    <link rel="dns-prefetch" href="//twitter.com">
+
+    <!-- Social -->
+    <meta property="og:image" content="https://coffeeforbernie.github.io/img/coffeeforbernie.png">
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="coffeeforbernie">
+
+    <!-- Favicon / Mobile Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#0d47a1">
+    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75038582-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div class="modal fade" id="coffeeModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Definition</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Coffee (n): A small donation made in support of a grassroots movement; a type of micro-donation.</p>
+                    <div class="text-xs-center">Bernie can do a lot with the equivalent of a cup of coffee!</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-bern-modal" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div id="herojumbo" class="jumbotron jumbotron-fluid blue">
+            <div class="container">
+                <h1>Coffee For Bernie</h1>
+                <p class="lead">
+                    <a href="#" type="button" data-toggle="modal" data-target="#coffeeModal">Every coffee counts!</a>
+                </p>
+                <div id="bernielogo"><img src="img/coffee.svg" width="230" height="230"></div>
+                <div id="donatejumbo"><a href="https://go.berniesanders.com" target="_blank" class="btn btn-bern-blue" role="button" data-toggle="tooltip" data-placement="bottom" title="Bernie's Official Site">Donate To The Campaign</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="delegatecount" class="white">
+            <div class="container-fluid">
+                <h2 id="datetime" class="display-4 m-b-3"></h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="revolvingchart">
+                            <canvas id="delegates" width="auto" height="auto"></canvas>
+                            <h4 class="m-t-1">Undecided Delegates: <span id="percent"></span>%</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Upcoming</th>
+                                <th>Delegates</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">March 15</th>
+                                <td>Florida</td>
+                                <td>214</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">March 15</th>
+                                <td>Illinois</td>
+                                <td>156</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">March 15</th>
+                                <td>Missouri</td>
+                                <td>71</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">March 15</th>
+                                <td>North Carolina</td>
+                                <td>107</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">March 15</th>
+                                <td>Ohio</td>
+                                <td>143</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <p class="note"><a href="//www.nytimes.com/interactive/2016/us/elections/primary-calendar-and-results.html" target="_blank"><span id="statecount">35</span> states to go!</a></p>
+            </div>
+        </section>
+        <section id="upcomingvotes" class="red">
+            <div class="container-fluid">
+                <div class="row">
+                        <h2 class="display-4">Pledged For Bernie</h2>
+                    <div class="col-lg-6">
+                        <div id="bar"><canvas id="delegateswon" width="auto" height="auto"></canvas></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="delegatecard" class="card card-inverse">
+                            <div class="card-block">
+                                <h3 class="card-title text-xs-center">Voter-based</h3>
+                                <div class="card-text text-xs-center">Pledged delegates are decided by state caucus or primary voters and exclude superdelegates.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="note">Total Pledged Delegates: 4051</p>
+        </section>
+        <section id="berniestates" class="white">
+            <div class="container-fluid">
+                <h2 class="display-4">States For Bernie</h2>
+                <div id="staterowone" class="row">
+                    <div class="col-xs-3">
+                        <p class="state">NH</p>
+                        <img src="img/stateswon/new-hampshire.png" class="img-fluid" alt="Bernie wins New Hampshire" width="30" height="62">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">OK</p>
+                        <img src="img/stateswon/oklahoma.png" class="img-fluid" alt="Bernie wins Oklahoma" width="151" height="81">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">KS</p>
+                        <img src="img/stateswon/kansas.png" class="img-fluid" alt="Bernie wins Kansas" width="130" height="71">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">VT</p>
+                        <img src="img/stateswon/vermont.png" class="img-fluid" alt="Bernie wins Vermont" width="30" height="57">
+                    </div>
+                </div>
+                <div id="staterowtwo" class="row">
+                    <div class="col-xs-3">
+                        <p class="state">MN</p>
+                        <img src="img/stateswon/minnesota.png" class="img-fluid" alt="Bernie wins Minnesota" width="117" height="130">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">CO</p>
+                        <img src="img/stateswon/colorado.png" class="img-fluid" alt="Bernie wins Colorado" width="128" height="101">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">ME</p>
+                        <img src="img/stateswon/maine.png" class="img-fluid" alt="Bernie wins Maine" width="60" height="94">
+                    </div>
+                    <div class="col-xs-3">
+                        <p class="state">NE</p>
+                        <img src="img/stateswon/nebraska.png" class="img-fluid" alt="Bernie wins Nebraska" width="145" height="73">
+                    </div>
+                </div>
+                <div id="staterowthree" class="row m-b-2">
+                    <div class="col-xs-12">
+                        <img src="img/stateswon/michigan.png" class="img-fluid" alt="Bernie wins Michigan" width="133" height="139">
+                        <p class="note"><a href="http://www.npr.org/2016/03/08/469717046/michigan-mississippi-idaho-hawaii-primary-results" target="_blank">Michigan!!</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="whybernie" class="blue">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="display-4 m-b-3"><a href="#" type="button" data-toggle="modal" data-target="#coffeeModal">Why</a> Bernie?</h2>
+                    <div class="col-sm-6">
+                        <img src="img/bernie.svg" class="img-fluid" width="335" height="335">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3 class="text-xs-center">Voting Record</h3>
+                        <ol class="text-xs-center">
+                            <li>Long history of civil rights activism</li>
+                            <li>Voted no on Iraq invasion</li>
+                            <li>Committed to a Super PAC-free campaign</li>
+                            <li>Against the Death Penalty</li>
+                            <li>Supports the breaking up of the big banks</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-12"><p class="note">Life-long commitment</p></div>
+                </div>
+            </div>
+        </section>
+        <section id="superdelegates" class="white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="display-4 m-b-3">#undecidedsuperdelegates</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h3>FL</h3>
+                        <ol>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=AndrewTobias&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Andrew Tobias" data-size="large" data-dnt="true"></a></li>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=RepDWStweets&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Debbie Wasserman Schultz" data-size="large" data-dnt="true"></a></li>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=kathyfndzrundle&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Katherine Fernandez Rundle" data-size="large" data-dnt="true"></a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>IL</h3>
+                        <ol>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=BarackObama&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Barack Obama" data-size="large" data-dnt="true"></a></li>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=RepLipinski&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Dan Lipinski" data-size="large" data-dnt="true"></a></li>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=senirismartinez&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Iris Martinez" data-size="large" data-dnt="true"></a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>MO</h3>
+                        <ol>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=roytemple&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Roy Temple" data-size="large" data-dnt="true"></a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>NC</h3>
+                        <ol>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=joycebrayboy&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Joyce Brayboy" data-size="large" data-dnt="true"></a></li>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=patcothammeck&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Pat Cotham" data-size="large" data-dnt="true"></a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>OH</h3>
+                        <ol>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=DavidPepper&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="David A. Pepper" data-size="large" data-dnt="true"></a></li>
+                            <li><a href="//twitter.com/intent/tweet?screen_name=rhinelana&text=Please%20cast%20your%20superdelegate%20vote%20for%20%40SenSanders!%20%23undecidedsuperdelegates" class="twitter-mention-button" title="Rhine McLin" data-size="large" data-dnt="true"></a></li>
+                        </ol>
+                    </div>
+                </div>
+                <p class="note">Tweet to undecided superdelegates!<br>Tell them to vote Bernie!</p>
+            </div>
+        </section>
+        <section id="donate" class="red">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="display-4 m-b-3"><a href="#" type="button" data-toggle="modal" data-target="#coffeeModal">Coffee</a> For Bernie</h2>
+                    <div class="col-sm-12">
+                        <img src="img/coffee.svg" class="img-fluid" width="335" height="335">
+                        <div id="calltoaction" class="text-xs-center m-t-3"><a href="//go.berniesanders.com" target="_blank" class="btn btn-bern-red" data-toggle="tooltip" data-placement="top" title="Bernie's Official Site">Donate</a></div>
+                        <div class="note">Join the over 5 million people that have made a small contribution to Bernie’s campaign.</div>
+                        <div class="note"><a href="#" type="button" data-toggle="modal" data-target="#coffeeModal">Every coffee helps!</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer" class="container-fluid blue">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="social">
+                        <a href="//reddit.com/u/coffeeforbernie" target="_blank"><i class="fa fa-reddit-square"></i></a>
+                        <a href="//twitter.com/coffeeforbernie" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                        <a href="//github.com/coffeeforbernie/coffeeforbernie.github.io" target="_blank"><i class="fa fa-github-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <!--<script src="js/charts.js"></script>-->
+    <script src="js/functions.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <!--<script src="js/jquery.js"></script>-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+    <!--<script src="js/tether.js"></script>-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <!--<script src="js/bootstrap.js"></script>-->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</body>
+</html>
